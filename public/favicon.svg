@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <defs>
+    <linearGradient id="bfGradFavicon" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#06b6d4" />
+      <stop offset="50%" stop-color="#f47626" />
+      <stop offset="100%" stop-color="#ff8c45" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="92" height="92" rx="22" stroke="url(#bfGradFavicon)" stroke-width="5" fill="#070a12" />
+  <path d="M26 28 H46 C54 28 58 32 58 38 C58 43 54 46 48 48 C56 50 60 55 60 62 C60 70 53 72 44 72 H26 Z" fill="none" stroke="url(#bfGradFavicon)" stroke-width="7" stroke-linejoin="round" />
+  <path d="M26 50 H46" stroke="url(#bfGradFavicon)" stroke-width="6.5" stroke-linecap="round" />
+  <path d="M54 28 H78" stroke="#ff8c45" stroke-width="7" stroke-linecap="round" />
+  <path d="M54 48 H72" stroke="#ff8c45" stroke-width="7" stroke-linecap="round" />
+</svg>
