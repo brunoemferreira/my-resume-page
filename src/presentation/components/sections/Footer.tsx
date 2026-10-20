@@ -23,10 +23,6 @@ export const Footer: React.FC = () => {
           © {CURRENT_YEAR} {PROFILE_INFO.fullName} · Todos os direitos reservados.
         </p>
 
-        <p style={{ fontSize: '0.78rem', color: 'var(--text-muted)', maxWidth: 540 }}>
-          Construído com React, TypeScript, Clean Architecture, Mobile-First e Efeitos Interativos de Fundo inspirados na UY3.
-        </p>
-
         <div style={{ display: 'flex', gap: 18, marginTop: 4 }}>
           <a
             href={PROFILE_INFO.githubUrl}
