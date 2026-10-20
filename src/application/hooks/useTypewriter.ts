@@ -32,8 +32,10 @@ export const useTypewriter = (
           setText(currentWord.slice(0, text.length - 1));
         }, deletingSpeed);
       } else {
-        setIsDeleting(false);
-        setWordIdx((prev) => (prev + 1) % words.length);
+        timeout = window.setTimeout(() => {
+          setIsDeleting(false);
+          setWordIdx((prev) => (prev + 1) % words.length);
+        }, deletingSpeed);
       }
     }
 

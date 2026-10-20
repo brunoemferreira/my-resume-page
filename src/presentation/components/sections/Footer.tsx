@@ -2,6 +2,8 @@ import React from 'react';
 import { LogoBF } from '../ui/LogoBF';
 import { PROFILE_INFO } from '../../../infrastructure/data/profileData';
 
+const CURRENT_YEAR = new Date().getFullYear();
+
 export const Footer: React.FC = () => {
   return (
     <footer
@@ -18,7 +20,7 @@ export const Footer: React.FC = () => {
         <LogoBF size={32} />
 
         <p style={{ fontWeight: 600, color: 'var(--text-main)' }}>
-          © {new Date().getFullYear()} {PROFILE_INFO.fullName} · Todos os direitos reservados.
+          © {CURRENT_YEAR} {PROFILE_INFO.fullName} · Todos os direitos reservados.
         </p>
 
         <p style={{ fontSize: '0.78rem', color: 'var(--text-muted)', maxWidth: 540 }}>
