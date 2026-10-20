@@ -11,7 +11,7 @@ export const PROFILE_INFO = {
   whatsappUrl: 'https://api.whatsapp.com/send?1=pt_BR&phone=5519992922054',
   githubUrl: 'https://github.com/brunoemferreira',
   linkedinUrl: 'https://www.linkedin.com/in/brunoemf/',
-  avatarUrl: '/assets/images/profile.png',
+  avatarUrl: `${import.meta.env.BASE_URL}assets/images/profile.png`,
   yearsOfExperience: 18,
   totalRepos: 51,
   totalPostGrad: 4,
@@ -135,11 +135,11 @@ export const EDUCATION_LIST: EducationItem[] = [
 ];
 
 export const CERTIFICATIONS: CertificationItem[] = [
-  { id: 'scrum-fund', name: 'Scrum Fundamentals Certified', badgeImg: '/assets/badges/certiprof_scrumfundation.png', issuer: 'CertiProf' },
-  { id: 'devops-essentials', name: 'DevOps Essentials Certificate', badgeImg: '/assets/badges/certiprof_devops.png', issuer: 'CertiProf' },
-  { id: 'python-ds', name: 'Fundamentos de Python para Data Science', badgeImg: '/assets/badges/cert_scrumStudy.png', issuer: 'Data Science Academy' },
-  { id: 'devops-lead', name: 'DevOps Leader & Lean IT', badgeImg: '/assets/badges/itcerts_devopslead.png', issuer: 'IT Certs' },
-  { id: 'six-sigma', name: 'Six Sigma & Agile Management', badgeImg: '/assets/badges/vmedu_6sigma.png', issuer: 'VMEdu' }
+  { id: 'scrum-fund', name: 'Scrum Fundamentals Certified', badgeImg: `${import.meta.env.BASE_URL}assets/badges/certiprof_scrumfundation.png`, issuer: 'CertiProf' },
+  { id: 'devops-essentials', name: 'DevOps Essentials Certificate', badgeImg: `${import.meta.env.BASE_URL}assets/badges/certiprof_devops.png`, issuer: 'CertiProf' },
+  { id: 'python-ds', name: 'Fundamentos de Python para Data Science', badgeImg: `${import.meta.env.BASE_URL}assets/badges/cert_scrumStudy.png`, issuer: 'Data Science Academy' },
+  { id: 'devops-lead', name: 'DevOps Leader & Lean IT', badgeImg: `${import.meta.env.BASE_URL}assets/badges/itcerts_devopslead.png`, issuer: 'IT Certs' },
+  { id: 'six-sigma', name: 'Six Sigma & Agile Management', badgeImg: `${import.meta.env.BASE_URL}assets/badges/vmedu_6sigma.png`, issuer: 'VMEdu' }
 ];
 
 export const SKILL_CATEGORIES: SkillCategory[] = [

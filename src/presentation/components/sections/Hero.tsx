@@ -107,11 +107,11 @@ export const Hero: React.FC = () => {
                   }}
                 >
                   <img
-                    src="/assets/images/profile.png"
+                    src={PROFILE_INFO.avatarUrl}
                     alt={PROFILE_INFO.fullName}
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     onError={(e) => {
-                      (e.target as HTMLImageElement).src = '/assets/images/profile.jpg';
+                      (e.target as HTMLImageElement).src = `${import.meta.env.BASE_URL}assets/images/profile.jpg`;
                     }}
                   />
                 </div>
